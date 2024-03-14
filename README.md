@@ -1,2 +1,2 @@
 # Joining-Process-Ontology
-Collaborative project for an industrial ontology
+Collaborative project for an Industrial Ontology
