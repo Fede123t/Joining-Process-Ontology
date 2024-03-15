@@ -1,0 +1,836 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://asu.edu/semantics/JPO"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://asu.edu/semantics/JPO"
+     versionIRI="http://asu.edu/semantics/JPO1">
+    <Prefix name="" IRI="http://www.semanticweb.org/ahasa/ontologies/2024/2/untitled-ontology-104/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="CommonCoreOntologies" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
+    <Import>http://purl.obolibrary.org/obo/bfo/2020/bfo-core.owl</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/AgentOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/ArtifactOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/CurrencyUnitOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/EventOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/ExtendedRelationOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/FacilityOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/GeospatialOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/InformationEntityOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/ModalRelationOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/QualityOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/TimeOntology</Import>
+    <Import>http://www.ontologyrepository.com/CommonCoreOntologies/Mid/2024-02-14/UnitsOfMeasureOntology</Import>
+    <Declaration>
+        <Class IRI="/ActOfACWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfAbrasiveBlasting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfAdhesiveBonding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfAirAcetyleneGasWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfArcWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfAtomicHydrogenGasWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfBolting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfBrazing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfChemicalCleaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfChemicalEtching"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfClamping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfCleaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfColdWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfCuring"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfDCWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfDepositing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfDiffusionBonding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfElectronBeamWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfExplosionWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfFiling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfForgeWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfFrictionStirSpotWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfFrictionWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfFusionWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfGasMetalArcWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfGasTungstanArcWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfGasWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfGrinding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfHandBrushing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfInductionWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfJoining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfLaserBeamWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfMIGWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfMaterialRemoval"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfNonFusionWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfOxyAcetyleneGasWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfOxyHydrogenWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfPermanentJoining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfPlasmaArcWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfPressureGasWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfPressureWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfProjectionWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfPulsedArcBuilding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfResistanceSeamWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfResistanceSpotWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfResistanceWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfRiveting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSAWWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSanding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSemiPermanentJoining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfShieldedMetalWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfShortCircuitArcWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSoldering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSprayTransferWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSpraying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfSubmergedArcWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfTIGWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfTemporaryJoining"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfTesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfThermitWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfUltrasonicWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfWaterBreakTesting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfWireBrushing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfAbrasiveBlasting_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfAcetyleneGasWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfAdhesiveBonding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfArcWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfAtomicHydrogenGasWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfBolting_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfBrazing_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfChemicalCleaning_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfChemicalEtching_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfClamping_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfCleaning_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfColdWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfCuring_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfDepositing_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfDiffusionBonding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfElectronicBeamWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfExplosionWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfFiling_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfForgeWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfFrictionStirSpotWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfFrictionWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfFusionWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfGasWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfGrinding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfHandbrushing_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfInductionWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfJoining_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfLaserBeamWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfMaterialRemoval_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfNonFusionWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfOxyAcetylenGasWelding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfOxyHydrogenWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfPermanentJoining_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfPressureGasWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfPressureWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfResistanceWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfRiveting_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfSanding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfSemiPermanentJoining_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfSoldering_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfSolidStateBuilding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfSpraying_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfTemporaryJoining_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfTermitWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfTesting_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfUltrasonicWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfWaterBreakTesting_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfWelding_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/ActOfWireBrushing_1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="/ActOfACWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfAbrasiveBlasting"/>
+        <Class IRI="/ActOfMaterialRemoval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfAdhesiveBonding"/>
+        <Class IRI="/ActOfSemiPermanentJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfAirAcetyleneGasWelding"/>
+        <Class IRI="/ActOfGasWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfArcWelding"/>
+        <Class IRI="/ActOfFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfAtomicHydrogenGasWelding"/>
+        <Class IRI="/ActOfGasWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfBolting"/>
+        <Class IRI="/ActOfTemporaryJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfBrazing"/>
+        <Class IRI="/ActOfPermanentJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfChemicalCleaning"/>
+        <Class IRI="/ActOfCleaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfChemicalEtching"/>
+        <Class IRI="/ActOfTesting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfClamping"/>
+        <Class IRI="/ActOfTemporaryJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfCleaning"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:ActOfArtifactProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfColdWelding"/>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfCuring"/>
+        <Class IRI="/ActOfTesting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfDCWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfDepositing"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:ActOfArtifactProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfDiffusionBonding"/>
+        <Class IRI="/ActOfNonFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfElectronBeamWelding"/>
+        <Class IRI="/ActOfFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfExplosionWelding"/>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfFiling"/>
+        <Class IRI="/ActOfMaterialRemoval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfForgeWelding"/>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfFrictionStirSpotWelding"/>
+        <Class IRI="/ActOfFrictionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfFrictionWelding"/>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfGasMetalArcWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfGasTungstanArcWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfGasWelding"/>
+        <Class IRI="/ActOfFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfGrinding"/>
+        <Class IRI="/ActOfMaterialRemoval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfHandBrushing"/>
+        <Class IRI="/ActOfCleaning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfInductionWelding"/>
+        <Class IRI="/ActOfFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfJoining"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:ActOfArtifactAssembly"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfLaserBeamWelding"/>
+        <Class IRI="/ActOfFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfMIGWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfMaterialRemoval"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:ActOfArtifactProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfNonFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfOxyAcetyleneGasWelding"/>
+        <Class IRI="/ActOfGasWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfOxyHydrogenWelding"/>
+        <Class IRI="/ActOfGasWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfPermanentJoining"/>
+        <Class IRI="/ActOfJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfPlasmaArcWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfPressureGasWelding"/>
+        <Class IRI="/ActOfGasWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfPressureWelding"/>
+        <Class IRI="/ActOfNonFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfProjectionWelding"/>
+        <Class IRI="/ActOfResistanceWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfPulsedArcBuilding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfResistanceSeamWelding"/>
+        <Class IRI="/ActOfResistanceWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfResistanceSpotWelding"/>
+        <Class IRI="/ActOfResistanceWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfResistanceWelding"/>
+        <Class IRI="/ActOfFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfRiveting"/>
+        <Class IRI="/ActOfPermanentJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSAWWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSanding"/>
+        <Class IRI="/ActOfMaterialRemoval"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSemiPermanentJoining"/>
+        <Class IRI="/ActOfJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfShieldedMetalWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfShortCircuitArcWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSoldering"/>
+        <Class IRI="/ActOfPermanentJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+        <Class IRI="/ActOfNonFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSprayTransferWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSpraying"/>
+        <Class IRI="/ActOfDepositing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfSubmergedArcWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfTIGWelding"/>
+        <Class IRI="/ActOfArcWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfTemporaryJoining"/>
+        <Class IRI="/ActOfJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfTesting"/>
+        <Class abbreviatedIRI="CommonCoreOntologies:ActOfArtifactProcessing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfThermitWelding"/>
+        <Class IRI="/ActOfFusionWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfUltrasonicWelding"/>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfWaterBreakTesting"/>
+        <Class IRI="/ActOfTesting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfWelding"/>
+        <Class IRI="/ActOfPermanentJoining"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfWireBrushing"/>
+        <Class IRI="/ActOfCleaning"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="/ActOfAbrasiveBlasting"/>
+        <NamedIndividual IRI="/ActOfAbrasiveBlasting_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfAirAcetyleneGasWelding"/>
+        <NamedIndividual IRI="/ActOfAcetyleneGasWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfAdhesiveBonding"/>
+        <NamedIndividual IRI="/ActOfAdhesiveBonding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfArcWelding"/>
+        <NamedIndividual IRI="/ActOfArcWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfAtomicHydrogenGasWelding"/>
+        <NamedIndividual IRI="/ActOfAtomicHydrogenGasWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfBolting"/>
+        <NamedIndividual IRI="/ActOfBolting_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfBrazing"/>
+        <NamedIndividual IRI="/ActOfBrazing_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfChemicalCleaning"/>
+        <NamedIndividual IRI="/ActOfChemicalCleaning_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfChemicalEtching"/>
+        <NamedIndividual IRI="/ActOfChemicalEtching_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfClamping"/>
+        <NamedIndividual IRI="/ActOfClamping_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfCleaning"/>
+        <NamedIndividual IRI="/ActOfCleaning_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfColdWelding"/>
+        <NamedIndividual IRI="/ActOfColdWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfCuring"/>
+        <NamedIndividual IRI="/ActOfCuring_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfDepositing"/>
+        <NamedIndividual IRI="/ActOfDepositing_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfDiffusionBonding"/>
+        <NamedIndividual IRI="/ActOfDiffusionBonding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfElectronBeamWelding"/>
+        <NamedIndividual IRI="/ActOfElectronicBeamWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfExplosionWelding"/>
+        <NamedIndividual IRI="/ActOfExplosionWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfFiling"/>
+        <NamedIndividual IRI="/ActOfFiling_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfForgeWelding"/>
+        <NamedIndividual IRI="/ActOfForgeWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfFrictionStirSpotWelding"/>
+        <NamedIndividual IRI="/ActOfFrictionStirSpotWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfFrictionWelding"/>
+        <NamedIndividual IRI="/ActOfFrictionWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfFusionWelding"/>
+        <NamedIndividual IRI="/ActOfFusionWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfGasWelding"/>
+        <NamedIndividual IRI="/ActOfGasWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfGrinding"/>
+        <NamedIndividual IRI="/ActOfGrinding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfHandBrushing"/>
+        <NamedIndividual IRI="/ActOfHandbrushing_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfInductionWelding"/>
+        <NamedIndividual IRI="/ActOfInductionWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfJoining"/>
+        <NamedIndividual IRI="/ActOfJoining_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfLaserBeamWelding"/>
+        <NamedIndividual IRI="/ActOfLaserBeamWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfMaterialRemoval"/>
+        <NamedIndividual IRI="/ActOfMaterialRemoval_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfNonFusionWelding"/>
+        <NamedIndividual IRI="/ActOfNonFusionWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfOxyAcetyleneGasWelding"/>
+        <NamedIndividual IRI="/ActOfOxyAcetylenGasWelding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfOxyHydrogenWelding"/>
+        <NamedIndividual IRI="/ActOfOxyHydrogenWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfPermanentJoining"/>
+        <NamedIndividual IRI="/ActOfPermanentJoining_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfPressureGasWelding"/>
+        <NamedIndividual IRI="/ActOfPressureGasWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfPressureWelding"/>
+        <NamedIndividual IRI="/ActOfPressureWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfResistanceWelding"/>
+        <NamedIndividual IRI="/ActOfResistanceWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfRiveting"/>
+        <NamedIndividual IRI="/ActOfRiveting_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfSanding"/>
+        <NamedIndividual IRI="/ActOfSanding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfSemiPermanentJoining"/>
+        <NamedIndividual IRI="/ActOfSemiPermanentJoining_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfSoldering"/>
+        <NamedIndividual IRI="/ActOfSoldering_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfSolidStateBuilding"/>
+        <NamedIndividual IRI="/ActOfSolidStateBuilding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfSpraying"/>
+        <NamedIndividual IRI="/ActOfSpraying_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfTemporaryJoining"/>
+        <NamedIndividual IRI="/ActOfTemporaryJoining_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfThermitWelding"/>
+        <NamedIndividual IRI="/ActOfTermitWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfTesting"/>
+        <NamedIndividual IRI="/ActOfTesting_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfUltrasonicWelding"/>
+        <NamedIndividual IRI="/ActOfUltrasonicWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfWaterBreakTesting"/>
+        <NamedIndividual IRI="/ActOfWaterBreakTesting_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfWelding"/>
+        <NamedIndividual IRI="/ActOfWelding_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ActOfWireBrushing"/>
+        <NamedIndividual IRI="/ActOfWireBrushing_1"/>
+    </ClassAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
