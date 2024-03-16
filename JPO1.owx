@@ -37,9 +37,6 @@
         <Class IRI="/ActOfAbrasiveBlasting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/ActOfAdhesiveBonding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/ActOfAirAcetyleneGasWelding"/>
     </Declaration>
     <Declaration>
@@ -100,9 +97,6 @@
         <Class IRI="/ActOfFrictionWelding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/ActOfFusionWelding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/ActOfGasMetalArcWelding"/>
     </Declaration>
     <Declaration>
@@ -133,13 +127,13 @@
         <Class IRI="/ActOfMaterialRemoval"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/ActOfNonFusionWelding"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/ActOfOxyAcetyleneGasWelding"/>
     </Declaration>
     <Declaration>
         <Class IRI="/ActOfOxyHydrogenWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfPermanentAdhesiveJoining"/>
     </Declaration>
     <Declaration>
         <Class IRI="/ActOfPermanentJoining"/>
@@ -178,9 +172,6 @@
         <Class IRI="/ActOfSanding"/>
     </Declaration>
     <Declaration>
-        <Class IRI="/ActOfSemiPermanentJoining"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="/ActOfShieldedMetalWelding"/>
     </Declaration>
     <Declaration>
@@ -203,6 +194,9 @@
     </Declaration>
     <Declaration>
         <Class IRI="/ActOfTIGWelding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ActOfTemporaryAdhesiveJoining"/>
     </Declaration>
     <Declaration>
         <Class IRI="/ActOfTemporaryJoining"/>
@@ -381,16 +375,12 @@
         <Class IRI="/ActOfMaterialRemoval"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/ActOfAdhesiveBonding"/>
-        <Class IRI="/ActOfSemiPermanentJoining"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/ActOfAirAcetyleneGasWelding"/>
         <Class IRI="/ActOfGasWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfArcWelding"/>
-        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfAtomicHydrogenGasWelding"/>
@@ -438,11 +428,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfDiffusionBonding"/>
-        <Class IRI="/ActOfNonFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfElectronBeamWelding"/>
-        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfExplosionWelding"/>
@@ -465,10 +455,6 @@
         <Class IRI="/ActOfSolidStateBuilding"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/ActOfFusionWelding"/>
-        <Class IRI="/ActOfWelding"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/ActOfGasMetalArcWelding"/>
         <Class IRI="/ActOfArcWelding"/>
     </SubClassOf>
@@ -478,7 +464,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfGasWelding"/>
-        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfGrinding"/>
@@ -490,7 +476,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfInductionWelding"/>
-        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfJoining"/>
@@ -498,7 +484,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfLaserBeamWelding"/>
-        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfMIGWelding"/>
@@ -509,16 +495,16 @@
         <Class abbreviatedIRI="CommonCoreOntologies:ActOfArtifactProcessing"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="/ActOfNonFusionWelding"/>
-        <Class IRI="/ActOfWelding"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="/ActOfOxyAcetyleneGasWelding"/>
         <Class IRI="/ActOfGasWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfOxyHydrogenWelding"/>
         <Class IRI="/ActOfGasWelding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ActOfPermanentAdhesiveJoining"/>
+        <Class IRI="/ActOfPermanentJoining"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfPermanentJoining"/>
@@ -534,7 +520,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfPressureWelding"/>
-        <Class IRI="/ActOfNonFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfProjectionWelding"/>
@@ -554,7 +540,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfResistanceWelding"/>
-        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfRiveting"/>
@@ -567,10 +553,6 @@
     <SubClassOf>
         <Class IRI="/ActOfSanding"/>
         <Class IRI="/ActOfMaterialRemoval"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="/ActOfSemiPermanentJoining"/>
-        <Class IRI="/ActOfJoining"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfShieldedMetalWelding"/>
@@ -586,7 +568,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfSolidStateBuilding"/>
-        <Class IRI="/ActOfNonFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfSprayTransferWelding"/>
@@ -605,6 +587,10 @@
         <Class IRI="/ActOfArcWelding"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="/ActOfTemporaryAdhesiveJoining"/>
+        <Class IRI="/ActOfTemporaryJoining"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="/ActOfTemporaryJoining"/>
         <Class IRI="/ActOfJoining"/>
     </SubClassOf>
@@ -614,7 +600,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfThermitWelding"/>
-        <Class IRI="/ActOfFusionWelding"/>
+        <Class IRI="/ActOfWelding"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="/ActOfUltrasonicWelding"/>
@@ -639,10 +625,6 @@
     <ClassAssertion>
         <Class IRI="/ActOfAirAcetyleneGasWelding"/>
         <NamedIndividual IRI="/ActOfAcetyleneGasWelding_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/ActOfAdhesiveBonding"/>
-        <NamedIndividual IRI="/ActOfAdhesiveBonding_1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/ActOfArcWelding"/>
@@ -717,10 +699,6 @@
         <NamedIndividual IRI="/ActOfFrictionWelding_1"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="/ActOfFusionWelding"/>
-        <NamedIndividual IRI="/ActOfFusionWelding_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="/ActOfGasWelding"/>
         <NamedIndividual IRI="/ActOfGasWelding_1"/>
     </ClassAssertion>
@@ -747,10 +725,6 @@
     <ClassAssertion>
         <Class IRI="/ActOfMaterialRemoval"/>
         <NamedIndividual IRI="/ActOfMaterialRemoval_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/ActOfNonFusionWelding"/>
-        <NamedIndividual IRI="/ActOfNonFusionWelding_1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/ActOfOxyAcetyleneGasWelding"/>
@@ -783,10 +757,6 @@
     <ClassAssertion>
         <Class IRI="/ActOfSanding"/>
         <NamedIndividual IRI="/ActOfSanding_1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="/ActOfSemiPermanentJoining"/>
-        <NamedIndividual IRI="/ActOfSemiPermanentJoining_1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="/ActOfSoldering"/>
@@ -828,6 +798,26 @@
         <Class IRI="/ActOfWireBrushing"/>
         <NamedIndividual IRI="/ActOfWireBrushing_1"/>
     </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="CommonCoreOntologies:definition"/>
+        <IRI>/ActOfBrazing</IRI>
+        <Literal xml:lang="en">An Act of Permanent joining process wherein a new material artifact is created by melting and flowing a filler metal that melts at higher temperatures into the joint.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="CommonCoreOntologies:definition"/>
+        <IRI>/ActOfRiveting</IRI>
+        <Literal xml:lang="en">An Act of Permanent joining process wherein a new material artifact is created by joining two material artifacts using a mechanical fastener.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="CommonCoreOntologies:definition"/>
+        <IRI>/ActOfSoldering</IRI>
+        <Literal xml:lang="en">An Act of Permanent joining process wherein a new material artifact is created by melting and flowing a filler metal that melts at lower temperatures into the joint.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="CommonCoreOntologies:definition"/>
+        <IRI>/ActOfWelding</IRI>
+        <Literal xml:lang="en">An Act of Permanent joining process wherein a new material artifact is created by melting the material artifacts using high heat and allowing them to cool to fuse.</Literal>
+    </AnnotationAssertion>
 </Ontology>
 
 
